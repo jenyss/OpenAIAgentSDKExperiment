@@ -3,9 +3,11 @@
 This OpenAI Agent is created by a LangGraph Agent with a vector search tool. It has been given the OpenAI Agent SDK documentation as a reference.
 
 It returned wrongly: 
-<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str = "output.md")<code>
+<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str = "output.md")</code>
+
 and I changed it to:
-<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)<code> then specified the file name in the prompt.
+
+<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)</code> then specified the file name in the prompt.
 
 
 <code>================================== Ai Message ==================================
@@ -63,4 +65,4 @@ await main()
 - OpenAI API Key: Set this in your environment as `OPENAI_API_KEY`.
 
 This code sets up an agent that uses a web search tool to find information online and a function tool to write the results to a markdown file. The agent is executed using the `Runner` class, which handles the asynchronous execution of the agent's tasks.
-<code>
+</code>
