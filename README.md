@@ -1,4 +1,4 @@
-# Open AI Agent SDK Experiment
+# Open AI Agents SDK Experiment
 
 This OpenAI Agent is created by a LangGraph Agent with a vector search tool. The OpenAI Agent SDK documentation been embedded in the vector store to serve as a reference for the Agent.
 
