@@ -6,7 +6,7 @@ It returned wrongly:<br>
 <code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str = "output.md")</code>
 <br>
 and I changed it to:<br>
-<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)</code>
+<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)</code><br>
 then specified the file name in the prompt.
 
 
