@@ -69,4 +69,3 @@ await main()
 - OpenAI API Key: Set this in your environment as `OPENAI_API_KEY`.
 
 This code sets up an agent that uses a web search tool to find information online and a function tool to write the results to a markdown file. The agent is executed using the `Runner` class, which handles the asynchronous execution of the agent's tasks.
-</code>
