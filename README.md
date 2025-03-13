@@ -8,8 +8,13 @@ The LangGraph Agent returned wrongly:<br>
 Correct declaration:<br>
 <code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)</code><br>
 
+If you want to execute it in Jupyter Notebook add
+```from dotenv import load_dotenv
+import os
 
-
+# Load environment variables
+load_dotenv()
+```
 <code>================================== Ai Message ==================================
 <br>
 To create an AI Agent using the OpenAI Agent SDK that can search the web in real-time, extract data based on user prompts, and write it to a markdown file, we will follow these steps:
