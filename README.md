@@ -1,13 +1,13 @@
 # Open AI Agent SDK Experiment
 
-This OpenAI Agent is created by a LangGraph Agent with a vector search tool. It has been given the OpenAI Agent SDK documentation as a reference.
+This OpenAI Agent is created by a LangGraph Agent with a vector search tool. The OpenAI Agent SDK documentation been embedded in the vector store to serve as a reference for the Agent.
 
-It returned wrongly:<br>
+The LangGraph Agent returned wrongly:<br>
 <code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str = "output.md")</code>
 <br>
-and I changed it to:<br>
+Correct declaration:<br>
 <code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)</code><br>
-then specified the file name in the prompt.
+
 
 
 <code>================================== Ai Message ==================================
