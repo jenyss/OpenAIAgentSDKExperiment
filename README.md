@@ -2,6 +2,12 @@
 
 This OpenAI Agent is created by a LangGraph Agent with a vector search tool. It has been given the OpenAI Agent SDK documentation as a reference.
 
+It returned wrongly: 
+<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str = "output.md")<code>
+and I changed it to:
+<code>async def write_to_markdown(ctx: RunContextWrapper, content: str, filename: str)<code> then specified the file name in the prompt.
+
+
 <code>================================== Ai Message ==================================
 <br>
 To create an AI Agent using the OpenAI Agent SDK that can search the web in real-time, extract data based on user prompts, and write it to a markdown file, we will follow these steps:
