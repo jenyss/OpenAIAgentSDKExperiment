@@ -2,8 +2,7 @@
 
 This OpenAI Agent is created by a LangGraph Agent with a vector search tool. It has been given the OpenAI Agent SDK documentation as a reference.
 
-<code>
-================================== Ai Message ==================================
+<code>================================== Ai Message ==================================
 
 To create an AI Agent using the OpenAI Agent SDK that can search the web in real-time, extract data based on user prompts, and write it to a markdown file, we will follow these steps:
 
