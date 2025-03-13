@@ -87,7 +87,7 @@ You'll need to install the following libraries:
 
 **API Keys Required**
 
-OpenAI API key (for using the Agent SDK)
+```OpenAI API key (for using the Agent SDK)```
 
 
 ```python
