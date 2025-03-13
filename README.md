@@ -117,7 +117,7 @@ You'll need to install the following libraries:
 OpenAI API key (for using the Agent SDK)
 
 
-```
+```python
 import openai
 import markdownify
 import json
